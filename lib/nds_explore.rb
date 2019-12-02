@@ -11,9 +11,9 @@ end
 def print_first_directors_movie_titles
   my_db = directors_database
   index = 0 
-  while my_db[0][index] do
-    puts my_db[0][index]
+  while my_db[index] do
+    puts my_db[index]
   end 
 end
 
-print_first_directors_movie_titles
+pretty_print_nds
