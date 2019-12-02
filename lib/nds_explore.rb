@@ -11,8 +11,8 @@ end
 def print_first_directors_movie_titles
   my_db = directors_database
   index = 0 
-  while my_db[index] do
-    puts my_db[index]
+  while my_db[index][:movies][index] do
+    puts my_db[index][:movies][index][:title]
   end 
 end
 
