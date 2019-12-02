@@ -5,7 +5,7 @@ require 'directors_database'
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   require 'pp'
-  pp directors_database
+  pp nds 
 end
 
 def print_first_directors_movie_titles
@@ -16,4 +16,4 @@ def print_first_directors_movie_titles
   end 
 end
 
-pretty_print_nds
+pretty_print_nds(directors_database)
